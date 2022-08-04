@@ -9,12 +9,19 @@ body {
     height: 500px;
     background-position: right center;
     background-size: cover;
+    border: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 25px 50px 0 0;
 }
 
 .hero nav li{
     display: inline-block;
     list-style: none;
     border: 1px solid white;
+    margin-left: 10px;
 }
 
 .hero nav a{
@@ -77,4 +84,5 @@ footer {
 
 .card {
     display: inline-block;
+    margin: 20px;
 }
